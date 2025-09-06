@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mariam Shop - Boutique à Bamako, Mali | Mode, Sacs, Chaussures</title>
+    <meta name="description" content="Mariam Shop, boutique de mode à Bamako, Mali. Découvrez nos robes, sacs, chaussures tendance à petits prix en franc CFA. Contactez-nous pour vos achats !">
+    <meta name="keywords" content="Mariam Shop, boutique, Bamako, Mali, mode, vêtements, sacs, chaussures, franc CFA, femme, shopping, tendance">
+    <meta name="author" content="Mariam Shop Bamako Mali">
+    <link rel="canonical" href="https://mariamshop.example.com/">
+    <meta property="og:title" content="Mariam Shop - Boutique à Bamako, Mali">
+    <meta property="og:description" content="Boutique de mode à Bamako, Mali. Robes, sacs, chaussures tendance en franc CFA.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="fr_FR">
+    <meta property="og:url" content="https://mariamshop.example.com/">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=800&q=80">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    <h1>Maryam's Shop</h1>
+    <p class="num">+22391916942</p>
+    <p>Bienvenue dans la boutique de Mariam à Bamako, Mali !</p>
+    </header>
+    <section class="banner">
+        <img src="ma/mariam.jpg" alt="Boutique Mariam">
+    </section>
+    <section class="carousel">
+        <div class="carousel-container">
+
+            <img class="carousel-slide" src="ma/maquille.jpg" alt="Nouveauté 1">
+            <img class="carousel-slide" src="ma/sac.jpg" alt="Nouveauté 2">
+            <img class="carousel-slide" src="ma/port.jpg" alt="Nouveauté 3">
+            <button class="carousel-btn prev" onclick="moveCarousel(-1)">&#10094;</button>
+            <button class="carousel-btn next" onclick="moveCarousel(1)">&#10095;</button>
+        </div>
+    </section>
+    <section class="products">
+        <h2 class="sac">SAC</h2>
+        <div class="product-list">
+            <div class="product" onclick="highlightProduct(this)">
+                <img src="/ma/sac15000-multti.jpg" alt="Produit 1">
+                <h3>sac rond</h3>
+                <p>Prix : 15000 FCFA</p>
+            </div>
+            <div class="product" onclick="highlightProduct(this)">
+                <img src="/ma/sac-violet-15000.jpg" alt="Produit 2">
+                <h3>Sac à main violet</h3>
+                <p>Prix : 15000 FCFA</p>
+            </div>
+            <div class="product" onclick="highlightProduct(this)">
+                <img src="/ma/sac15000.jpg" alt="Produit 3">
+                <h3>sac tendance</h3>
+                <p>Prix : 15000 FCFA</p>
+            </div>
+            <div class="product" onclick="highlightProduct(this)">
+                <img src="/ma/sac15000noir.jpg" alt="Produit 3">
+                <h3>sac tendance noir</h3>
+                <p>Prix : 15000 FCFA</p>
+            </div>
+            <div class="product" onclick="highlightProduct(this)">
+                <img src="/ma/sac15000vert.jpg" alt="Produit 1">
+                <h3>sac élégante vert</h3>
+                <p>Prix : 15000 FCFA</p>
+            </div>
+            <div class="product" onclick="highlightProduct(this)">
+                <img src="/ma/sacor15000.jpg" alt="Produit 2">
+                <h3>Sac à main oculeur or</h3>
+                <p>Prix : 1500 FCFA</p>
+            </div>
+            <div class="product" onclick="highlightProduct(this)">
+                <img src="/ma/sac15000blue.jpg" alt="Produit 3">
+                <h3>sac tendance bleu</h3>
+                <p>Prix : 15000 FCFA</p>
+            </div>
+            <div class="product" onclick="highlightProduct(this)">
+                <img src="/ma/sac-rouge-10000.jpg" alt="Produit 3">
+                <h3>sac tendance rouge</h3>
+                <p>Prix : 10000 FCFA</p>
+            </div>
+        </div>
+        <h2 class="sac">BRACELET ET POERTE CLES</h2>
+        <div class="product-list">
+            <div class="product" onclick="highlightProduct(this)">
+                <img src="/ma/bracelet500.jpg" alt="Produit 1">
+                <h3>simple avec nom</h3>
+                <p>Prix : 500 FCFA</p>
+            </div>
+            <div class="product" onclick="highlightProduct(this)">
+                <img src="/ma/bracelet500kid.jpg" alt="Produit 2">
+                <h3>simple</h3>
+                <p>Prix : 15000 FCFA</p>
+            </div>
+            <div class="product" onclick="highlightProduct(this)">
+                <img src="/ma/prt.jpg" alt="Produit 3">
+                <h3>port cle lettre</h3>
+                <p>Prix : 500 FCFA</p>
+            </div>
+            <div class="product" onclick="highlightProduct(this)">
+                <img src="/ma/portmaqui-15000.jpg" alt="Produit 1">
+                <h3>support maquillage</h3>
+                <p>Prix : 1500 FCFA</p>
+            </div>
+            <div class="product" onclick="highlightProduct(this)">
+                <img src="/ma/bracelet500sadi.jpg" alt="Produit 2">
+                <h3>bracelet customiser</h3>
+                <p>Prix : 1500 FCFA</p>
+            </div>
+            <div class="product" onclick="highlightProduct(this)">
+                <img src="/ma/bracelet500lettre.jpg" alt="Produit 3">
+                <h3>lettres elegants</h3>
+                <p>Prix : 500 FCFA</p>
+            </div>
+            <div class="product" onclick="highlightProduct(this)">
+                <img src="/ma/portbic.jpg" alt="Produit 2">
+                <h3>support bic </h3>
+                <p>Prix : 500 FCFA</p>
+            </div>
+            <div class="product" onclick="highlightProduct(this)">
+                <img src="/ma/portcle.jpg" alt="Produit 3">
+                <h3> port cle avec lettres elegants</h3>
+                <p>Prix : 500 FCFA</p>
+            </div>
+            <div class="product" onclick="highlightProduct(this)">
+                <img src="/ma/portcler.jpg" alt="Produit 2">
+                <h3>port cle couleur rouge</h3>
+                <p>Prix : 1500 FCFA</p>
+            </div>
+            <div class="product" onclick="highlightProduct(this)">
+                <img src="/ma/tel.jpg" alt="Produit 3">
+                <h3>pochette telephone</h3>
+                <p>Prix : 3500 FCFA</p>
+            </div>
+        </div>
+    </section>
+    <section class="contact">
+        <h2>Contact</h2>
+        <form>
+            
+            <input type="text" placeholder="Votre nom" required>
+            <input type="email" placeholder="Votre email" required>
+            <textarea placeholder="Votre message" required></textarea>
+            <button type="submit">Envoyer</button>
+            
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2025 Mariam Shop. Tous droits réservés. creer par <a href="https://princejosiace.netlify.app/">princejosiace</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
